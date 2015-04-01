@@ -1,0 +1,26 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  height: 100%
+}
+
+body {
+  background-image: url(Stonefoot_Main_Web.jpg);
+  background-size: cover;
+}
+
+.titleDiv {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+}
+
+.titleDiv h1 {
+  font-size: 42px;
+  color: #f2a329;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 2px 2px #000;
+}
