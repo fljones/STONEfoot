@@ -8,8 +8,15 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
-.idea/**
 .DS-Store
+
+#IDEA Stuff
+.idea
+*.iml
+*.ipr
+*.iws
+*.iws~
+*.ids
 
 
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
