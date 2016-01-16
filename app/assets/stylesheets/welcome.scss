@@ -2,12 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import 'partials/settings';
+
+
 html {
   height: 100%
 }
 
 h2 {
   font-size: 42px;
+  color: #f2a329;
+  font-family: 'Uncial Antiqua', cursive;
+  text-shadow: 2px 2px #000;
+}
+
+h3 {
+  font-size: 22px;
   color: #f2a329;
   font-family: 'Uncial Antiqua', cursive;
   text-shadow: 2px 2px #000;
@@ -21,13 +31,11 @@ body {
 .page-body {
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
 }
 
 .body-text-container {
-  height: 550px;
   background: grey;
-  background: rgba(42,42,42,0.5);
+  background: rgba(42, 42, 42, 0.5);
   padding: 0px 20px 20px 20px;
   overflow-y: scroll;
   border-radius: 25px;
@@ -43,12 +51,13 @@ body {
   }
 }
 
-
 .titleDiv {
-  width: 100%;
+  @media #{$small-only} {
+    font-size: 12px;
+  }
 }
 
-.titleDiv   a:link {
+.titleDiv a:link {
   text-decoration: none;
 }
 
@@ -61,17 +70,13 @@ body {
 }
 
 .side-bar {
-  position: absolute;
-  right: 30px;
-  top: 100px;
-  height: 300px;
   ul {
     list-style-type: none;
+    text-align: right;
   }
   li a {
     font-size: 36px;
     color: #f2a329;
-    text-align: center;
     line-height: 68px;
     font-family: 'Uncial Antiqua', cursive;
     text-shadow: 2px 2px #000;
@@ -79,10 +84,21 @@ body {
   }
 }
 
-.footer {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
+.mobile-nav {
+  font-size: 16px;
+  color: #f2a329;
+  line-height: 68px;
+  font-family: 'Uncial Antiqua', cursive;
+  text-shadow: 2px 2px #000;
+  text-decoration: none;
+}
+
+.mobile-nav a:link {
+  color: #f2a329;
+}
+
+.mobile-nav a:visited {
+  color: #f2a329;
 }
 
 .footer h1 {
