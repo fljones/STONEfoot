@@ -10,7 +10,7 @@ html {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 2em;
   color: #f2a329;
   font-family: 'Uncial Antiqua', cursive;
   text-shadow: 2px 2px #000;
@@ -52,9 +52,7 @@ body {
 }
 
 .titleDiv {
-  @media #{$small-only} {
-    font-size: 12px;
-  }
+  text-align: center;
 }
 
 .titleDiv a:link {
@@ -75,7 +73,7 @@ body {
     text-align: right;
   }
   li a {
-    font-size: 36px;
+    font-size: 2em;
     color: #f2a329;
     line-height: 68px;
     font-family: 'Uncial Antiqua', cursive;
@@ -101,8 +99,16 @@ body {
   color: #f2a329;
 }
 
-.footer h1 {
-  font-size: 42px;
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px; /* choose any height */
+
+}
+
+.footer-text h1 {
+  font-size: 3em;
   color: #f2a329;
   text-align: center;
   font-family: 'Rock Salt', cursive;
