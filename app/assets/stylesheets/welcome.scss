@@ -44,6 +44,8 @@ body {
 .body-text {
   color: #f2a329;
   padding-top: 20px;
+  -ms-overflow-style: none;
+  overflow: auto;
   p {
     font-size: 1em;
     padding-left: 20px;
