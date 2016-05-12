@@ -1,8 +1,8 @@
-<div class="titleDiv small-4 small-centered columns hide-for-small-only">
+<div class="titleDiv medium-4 medium-centered columns hide-for-small-only">
   <a href="/"><h1>STONEFOOT</h1></a>
 </div>
-<div class="titleDiv small-4 small-centered columns show-for-small-only">
-  <a href="/"><h2>STONEFOOT</h2></a>
+<div class="titleDiv small-12 small-centered columns show-for-small-only">
+  <a href="/"><h1>STONEFOOT</h1></a>
 </div>
 <div class="row">
   <div class="page-body small-10 columns">
@@ -11,24 +11,17 @@
     </div>
     <div class="body-text-container small-12 columns">
       <div class="body-text">
-        <p>Patience, my friends. </br>
-          ...patience. </p>
+        <iframe width="100%" height="150" scrolling="no" frameborder="no"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/263793900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
       </div>
     </div>
   </div>
   <div class="side-bar small-2 columns hide-for-small-only">
     <ul>
-      <li><a href="music">Music</a></li>
-      <li><a href="about">About</a></li>
-      <li><a href="blog">Blog</a></li>
+      <li><%= link_to 'Music', 'music' %></li>
+      <li><%= link_to 'About', 'about' %></li>
+      <li><%= link_to 'Blog', 'blog' %></li>
     </ul>
-  </div>
-</div>
-<div class="footer">
-  <div class="mobile-nav small-8 small-centered columns show-for-small-only">
-    <a href="music">Music</a> &nbsp;
-    <a href="about">About</a> &nbsp;
-    <a href="blog">Blog</a>
   </div>
 </div>
 <div class="footer">
@@ -36,4 +29,10 @@
     <h1>The Foot Is Gonna Drop!</h1>
   </div>
 </div>
-
+<div class="footer">
+  <div class="mobile-nav small-8 small-centered columns show-for-small-only">
+    <%= link_to 'Music', 'music' %> &nbsp
+    <%= link_to 'About', 'about' %> &nbsp
+    <%= link_to 'Blog', 'blog' %>
+  </div>
+</div>

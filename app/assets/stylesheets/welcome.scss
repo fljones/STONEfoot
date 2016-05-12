@@ -43,6 +43,7 @@ body {
 
 .body-text {
   color: #f2a329;
+  padding-top: 20px;
   p {
     font-size: 1em;
     padding-left: 20px;
@@ -50,20 +51,17 @@ body {
   }
 }
 
-.titleDiv {
-  text-align: center;
-}
-
 .titleDiv a:link {
   text-decoration: none;
 }
 
 .titleDiv h1 {
-  font-size: 2em;
-  color: #f2a329;
-  text-align: center;
-  font-family: 'Uncial Antiqua', cursive;
-  text-shadow: 2px 2px #000;
+    color: #f2a329;
+    text-align: center;
+    font-family: 'Uncial Antiqua', cursive;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    font-size: 4em;
 }
 
 .side-bar {
@@ -112,5 +110,6 @@ body {
   text-align: center;
   font-family: 'Rock Salt', cursive;
   text-shadow: 2px 2px #000;
+  z-index: -100;
 }
 
