@@ -31,14 +31,19 @@ body {
 .page-body {
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .body-text-container {
   background: grey;
   background: rgba(42, 42, 42, 0.5);
   padding: 0px 20px 20px 20px;
-  overflow-y: scroll;
   border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 .body-text {
