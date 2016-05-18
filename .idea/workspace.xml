@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ff0a07c-54d5-4591-84b7-1b225cb6a089" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/music/music.html.erb" afterPath="$PROJECT_DIR$/app/views/music/music.html.erb" />
     </list>
     <ignored path="stonefoot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.62660027">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
@@ -60,11 +60,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="music.html.erb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="music.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/music/music.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="94" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
                   <folding />
                 </state>
               </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome.scss" />
         <option value="$PROJECT_DIR$/app/views/blog/blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/about/about.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/music/music.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/music/music.html.erb" />
       </list>
     </option>
   </component>
@@ -679,12 +679,12 @@
       <option name="presentableId" value="Default" />
       <updated>1427895017397</updated>
       <workItem from="1462979627967" duration="10366000" />
-      <workItem from="1463590151040" duration="5377000" />
+      <workItem from="1463590151040" duration="5561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15743000" />
+    <option name="totallyTimeSpent" value="15927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,18 +1084,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/music/music.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/music/music.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="94" selection-start-line="6" selection-start-column="94" selection-end-line="6" selection-end-column="94" />
           <folding />
         </state>
       </provider>
