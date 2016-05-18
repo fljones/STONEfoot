@@ -1,12 +1,11 @@
 <head>
-  <link rel="stylesheet" href="app/assets/stylesheets/animate.min.css">
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script>
+    $(function(){
+      $("#includedContent").load('app/views/templates/header.html.erb');
+    });
+  </script>
 </head>
-<div class="title titleDiv small-12 small-centered columns hide-for-small-only animated zoomInRight">
-  <a href="/"><h1>STONEFOOT</h1></a>
-</div>
-<div class="title titleDivMobile small-12 small-centered columns show-for-small-only animated zoomInRight">
-  <a href="/"><h1>STONEFOOT</h1></a>
-</div>
 <div class="body-content">
   <div class="row">
     <div class="page-body small-10 columns">
