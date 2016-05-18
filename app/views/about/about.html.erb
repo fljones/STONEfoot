@@ -1,43 +1,44 @@
 <head>
   <link rel="stylesheet" href="app/assets/stylesheets/animate.min.css">
 </head>
-<div class="titleDiv medium-12 medium-centered columns hide-for-small-only animated bounce">
+<div class="titleDiv small-12 small-centered columns hide-for-small-only animated bounce">
   <a href="/"><h1>STONEFOOT</h1></a>
 </div>
-<div class="titleDiv small-12 small-centered columns show-for-small-only animated bounce">
+<div class="titleDivMobile small-12 small-centered columns show-for-small-only animated bounce">
   <a href="/"><h1>STONEFOOT</h1></a>
 </div>
-
-<div class="row">
-  <div class="page-body small-10 columns">
-    <div class="heading-title">
-      <h3>About</h3>
-    </div>
-    <div class="body-text-container small-12 columns">
-      <div class="body-text">
-        <p>Stonefoot is the solo project of Frank Jones. </br>
-          He is not particularly interesting, but he loves his family, faith, the outdoors and of course, music.
-          His musical influences are many, but some are more evident than others. </p>
+<div class="body-content">
+  <div class="row">
+    <div class="page-body small-10 columns">
+      <div class="heading-title">
+        <h3>About</h3>
+      </div>
+      <div class="body-text-container small-12 columns">
+        <div class="body-text">
+          <p>Stonefoot is the solo project of Frank Jones. </br>
+            He is not particularly interesting, but he loves his family, faith, the outdoors and of course, music.
+            His musical influences are many, but some are more evident than others. </p>
+        </div>
       </div>
     </div>
+    <div class="side-bar small-2 columns hide-for-small-only">
+      <ul>
+        <li><%= link_to 'Music', 'music' %></li>
+        <li><%= link_to 'About', 'about' %></li>
+        <li><%= link_to 'Blog', 'blog' %></li>
+      </ul>
+    </div>
   </div>
-  <div class="side-bar small-2 columns hide-for-small-only">
-    <ul>
-      <li><%= link_to 'Music', 'music' %></li>
-      <li><%= link_to 'About', 'about' %></li>
-      <li><%= link_to 'Blog', 'blog' %></li>
-    </ul>
+  <div class="footer">
+    <div class="footer-text hide-for-small-only">
+      <h1>The Foot Is Gonna Drop!</h1>
+    </div>
   </div>
-</div>
-<div class="footer">
-  <div class="footer-text hide-for-small-only">
-    <h1>The Foot Is Gonna Drop!</h1>
-  </div>
-</div>
-<div class="footer">
-  <div class="mobile-nav small-8 small-centered columns show-for-small-only">
-    <%= link_to 'Music', 'music' %> &nbsp
-    <%= link_to 'About', 'about' %> &nbsp
-    <%= link_to 'Blog', 'blog' %>
+  <div class="footer">
+    <div class="mobile-nav small-8 small-centered columns show-for-small-only">
+      <%= link_to 'Music', 'music' %> &nbsp
+      <%= link_to 'About', 'about' %> &nbsp
+      <%= link_to 'Blog', 'blog' %>
+    </div>
   </div>
 </div>

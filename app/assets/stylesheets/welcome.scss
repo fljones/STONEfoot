@@ -9,30 +9,46 @@ html {
   height: 100%
 }
 
+body {
+  background-color: black;
+}
+
+.title {
+  background-color: black;
+}
+
 h2 {
   font-size: 2em;
   color: #f2a329;
   font-family: 'Uncial Antiqua', cursive;
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px black;
+}
+
+.heading-title {
+  padding-bottom: 20px;
 }
 
 h3 {
   font-size: 2em;
   color: #f2a329;
   font-family: 'Uncial Antiqua', cursive;
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px black;
 }
 
-body {
+.body-content {
   background-image: image-url('stonefoot_main.jpg');
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+  padding-top: 40px;
 }
 
 .page-body {
   margin-left: auto;
   margin-right: auto;
   height: 100%;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -66,9 +82,20 @@ body {
     color: #f2a329;
     text-align: center;
     font-family: 'Uncial Antiqua', cursive;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px grey;
     text-align: center;
-    font-size: 4em;
+    font-size: 7em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.titleDivMobile h1 {
+  color: #f2a329;
+  text-align: center;
+  font-family: 'Uncial Antiqua', cursive;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+  font-size: 3em;
 }
 
 .side-bar {
