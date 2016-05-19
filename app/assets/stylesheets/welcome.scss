@@ -17,6 +17,10 @@ body {
   background-color: black;
 }
 
+.mobile-nav {
+  background-color: black;
+}
+
 h2 {
   font-size: 2em;
   color: #f2a329;
@@ -43,6 +47,7 @@ h3 {
   -o-background-size: cover;
   min-height: 100%;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .page-body {
