@@ -1,0 +1,2 @@
+class GuitoolsController < ApplicationController
+end
