@@ -73,9 +73,13 @@ h3 {
   -ms-overflow-style: none;
   overflow: auto;
   p {
-    font-size: 1em;
+    font-size: 1.5em;
     padding-left: 20px;
     padding-top: 20px;
+    line-height: 23px;
+  }
+  p a {
+    color: #FFBB53;
   }
 }
 
@@ -88,7 +92,6 @@ h3 {
     text-align: center;
     font-family: 'Uncial Antiqua', cursive;
     text-shadow: 2px 2px grey;
-    text-align: center;
     font-size: 7em;
   margin-top: 0;
   margin-bottom: 0;
@@ -99,7 +102,6 @@ h3 {
   text-align: center;
   font-family: 'Uncial Antiqua', cursive;
   text-shadow: 2px 2px grey;
-  text-align: center;
   font-size: 3em;
 }
 
