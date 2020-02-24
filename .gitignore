@@ -43,6 +43,7 @@ bower.json
 /log/*
 !/log/.keep
 /tmp
+.idea/workspace.xml
 
 # ignore newer rvm configs if used
 /.ruby*
